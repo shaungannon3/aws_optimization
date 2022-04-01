@@ -50,7 +50,6 @@ class FileHandler:
             output_header = self.header + child_header1 + child_header2
             writer.writerow(output_header)
             for instance in instances:
-                print(len(instance.children))
                 row = instance.getRow()
                 if row != None:
                     writer.writerow(row)
