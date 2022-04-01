@@ -54,3 +54,4 @@ class FileHandler:
                 if row != None:
                     writer.writerow(row)
             fp.close()
+        return

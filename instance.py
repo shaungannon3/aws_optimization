@@ -20,5 +20,3 @@ class Instance:
         else:
             row = self.contents
         return row
-
-    
